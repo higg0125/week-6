@@ -54,6 +54,9 @@ Start of Main page code
 
 html{
     font-size: 22px;
+    /* set a default font-family for the page
+    always provide a list of fonts as fail back options ... ADD NOTES */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
     background-color: blueviolet;
@@ -96,4 +99,14 @@ body{
     background-color: darkturquoise;
     width: 50%;
     height: 100%;   /* height cannont be set using % */
+
+    /* CSS Typography Options */
+    font-size: 16px; 
+    /* you can set the fot size using any unit of mesurement- 
+    usually it'sset with px,em or rem */
+    line-height: 1.3em;
+    /* line height is often set using em, so its relative to the size of font */
+
+    font-weight: bold;
+    font-style: italic;
 }
