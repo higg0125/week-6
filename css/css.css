@@ -1,5 +1,48 @@
 /* Css file for week 6 class example */
 
+html{
+    font-size: 22px;
+}
 body{
     background-color: blueviolet;
+    
+}
+
+/* use a class to target an element with a .   */
+.sizing{
+    /* border is a shorthand that requires three properties :size, colour, and type */
+    border: 5px cyan solid;
+    /* width: 200px; 
+    height: 200px;
+    using px is hard-codoed values - the element will always be that size */
+    width: 50%;
+    height: 50%;
+
+    font-size: 10px;
+}
+
+.using-rem{
+    /* REM is based on the default font-size for the site  (or for the body tag)
+    Usally thia is set to 16px by your bowser */
+    font-size:2rem;
+}
+
+.using-em{
+    /* EM is based on the default font-size of the element's parent - in case, the parent of this of this span
+    is the div with the class .sizing */
+    font-size: 2em;
+}
+
+.using-viewport{
+    /* vw (viewport width) and vh (viewprot height) respond to the size of the browser window */
+    background-color: darkorchid;
+    width: 40vw;
+    height: 40vh;
+}
+
+.using-percent{
+    /* percent responds to the element's parent, in tis case the element with the class .using-viewport  */
+    background-color: darkturquoise;
+    width: 50%;
+    height: 100%;   /* height cannont be set using % */
 }
