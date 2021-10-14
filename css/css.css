@@ -34,7 +34,7 @@ body{
 
 .using-viewport{
     /* vw (viewport width) and vh (viewprot height) respond to the size of the browser window */
-    background-color: darkorchid;
+    background-color:deeppink;
     width: 40vw;
     height: 40vh;
 }
